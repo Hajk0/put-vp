@@ -4,12 +4,17 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
-    <ProjectReference Include="..\DAOMock1\DAOMock1.csproj" />
+    <!--<ProjectReference Include="..\DAOMock1\DAOMock1.csproj" />
+    <ProjectReference Include="..\DAOMock2\DAOMock2.csproj" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
